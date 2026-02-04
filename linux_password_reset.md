@@ -7,12 +7,12 @@ User forgot their Linux account password.
 Parrot OS VM (Linux)
 
 **Steps Taken:**  
-1. Open terminal  
-2. Run `sudo passwd testuser` to reset password  
-3. Verified user can log in with new password
+1. Reset password using `sudo passwd testuser`  
+2. Verified login using `su - testuser`  
 
 **Solution:**  
-Password reset successfully and user regained access.
+Password was successfully reset. User can now log in.
 
-**Lessons Learned:**  
-Practiced Linux user account management commands.
+**Screenshot:**  
+
+![Password Reset Screenshot](linux_lab_screenshot.png)
